@@ -75,6 +75,7 @@ function App() {
               <td>{item.wonEmmy && <p>Got the Emmy Award!</p>}</td>
 
               <td>
+                {/* Bug: one extra button with no data inside */}
                 <button onClick={handleDeleteClick}>🗑</button>
               </td>
             </tr>
